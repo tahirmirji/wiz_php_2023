@@ -117,12 +117,18 @@
     
 // }
 
-$names=array('Andrew','Belen','Charli');
-for ( $i=0 ; $i<3 ; $i++ )
+// $names=array('Andrew','Belen','Charli');
+// for ( $i=0 ; $i<3 ; $i++ )
+// {
+//     echo "<br/>$i. $names[$i]";
+// }
+$a=1;
+while($a<=5)
 {
-    echo "<br/>$i. $names[$i]";
+    echo "<br/>Count: $a";
+    $a++; // increment a value to next value
 }
-
+echo "OUTside while";
 
 
 
