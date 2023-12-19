@@ -101,20 +101,29 @@
 //     echo "Greetings of the day";
 // }
 
-switch(1)
-{
-    case 1:
-        echo "one number detected";
-        break;
+// switch(1)
+// {
+//     case 1:
+//         echo "one number detected";
+//         break;
 
-    case 2:
-        echo "Second Number Detected";
-        break;
+//     case 2:
+//         echo "Second Number Detected";
+//         break;
 
-    default:
-    echo "Invalid input";
-    break;
+//     default:
+//     echo "Invalid input";
+//     break;
     
+// }
+
+$names=array('Andrew','Belen','Charli');
+for ( $i=0 ; $i<3 ; $i++ )
+{
+    echo "<br/>$i. $names[$i]";
 }
+
+
+
 
 ?>
