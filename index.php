@@ -123,13 +123,21 @@
 //     echo "<br/>$i. $names[$i]";
 // }
 
-$a=1;
-while($a<=5)
-{
-    echo "<br/>Count: $a";
-    $a++; // increment a value to next value
-}
-echo "OUTside while";
+// $a=1;
+// while($a<=5)
+// {
+//     echo "<br/>Count: $a";
+//     $a++; // increment a value to next value
+// }
+// echo "OUTside while";
+
+
+$x=1;
+
+do{
+    echo "The number is $x <br/>";
+    $x++;
+} while( $x<=6 );
 
 
 
