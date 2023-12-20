@@ -132,13 +132,22 @@
 // echo "OUTside while";
 
 
-$x=1;
+// $x=1;
 
-do{
-    echo "The number is $x <br/>";
-    $x++;
-} while( $x<=6 );
+// do{
+//     echo "The number is $x <br/>";
+//     $x++;
+// } while( $x<=6 );
 
 
+
+// foreach
+
+$colors = array('red','green','blue','yellow');
+
+foreach($colors as $single_color)
+{
+    echo "Color name: $single_color <br/>";
+}
 
 ?>
