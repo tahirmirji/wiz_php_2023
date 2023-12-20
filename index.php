@@ -143,11 +143,18 @@
 
 // foreach
 
-$colors = array('red','green','blue','yellow');
+// $colors = array('red','green','blue','yellow');
 
-foreach($colors as $single_color)
+// foreach($colors as $single_color)
+// {
+//     echo "Color name: $single_color <br/>";
+// }
+
+$products =array('p1' => array('Macbook m1',95000), 'p2'=>array('Macbook m2',150000) );
+foreach($products as $product)
 {
-    echo "Color name: $single_color <br/>";
+        // 18% tax
+        $grandtotal=($product[1] * 0.18) + $product[1] ;
+    echo "Product: $product[0] | $product[1] = after 18% tax $grandtotal <br/>";
 }
-
 ?>
