@@ -154,7 +154,17 @@ $products =array('p1' => array('Macbook m1',95000), 'p2'=>array('Macbook m2',150
 foreach($products as $product)
 {
         // 18% tax
-        $grandtotal=($product[1] * 0.18) + $product[1] ;
+        $grandtotal=grand_total_calculator($product[1] ,0.28);
     echo "Product: $product[0] | $product[1] = after 18% tax $grandtotal <br/>";
 }
+
+//User defined function
+function grand_total_calculator($price,$tax)
+{
+    $total_with_tax= ($price * $tax)+$price;
+    echo "Tax included";
+    return $total_with_tax;
+}
+
+
 ?>
