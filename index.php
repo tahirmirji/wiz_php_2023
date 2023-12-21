@@ -29,7 +29,7 @@
 <!-- Form starts here -->
     <form class="form">
 
-      <div class="row">
+      <div class="row">   
 
       <!-- Labels list goes here -->
         <div class="col-2">
@@ -37,8 +37,8 @@
         </div>
 
         <!-- Input widgets will be added here -->
-        <div class="col-4">
-          <input type="text" name="username" value="" required>
+        <div class="col-10">
+          <input type="password" name="username" value="" required>
         </div>
 
       </div>
