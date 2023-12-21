@@ -38,7 +38,7 @@
 
         <!-- Input widgets will be added here -->
         <div class="col-10">
-          <input type="password" name="username" value="" required>
+          <input type="email" name="username" value="" required>
         </div>
 
       </div>
