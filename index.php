@@ -14,15 +14,29 @@
   <div class="row align-items-center">
 
   <div class="col-2 align-items-center">
-     Left
+    
     </div>
 
     <div class="col-8 align-items-center">
-     In sunt aliqua minim sit officia duis ex. Culpa consectetur nulla magna velit tempor occaecat excepteur. Consequat irure quis et adipisicing. Sint eiusmod ex culpa anim magna non. Sit aliquip sint cupidatat et officia labore voluptate eu velit nisi. Aute sint laboris mollit in deserunt sit nulla in Lorem eiusmod fugiat.
+     
+    <form class="form">
+
+    <div class="row">
+        <div class="col-4">
+Name
+        </div>
+        <div class="col-8">
+Form elements
+        </div>
+
+    </div>
+
+    </form>
+
     </div>
 
     <div class="col-2 align-items-center">
-     In Right
+   
     </div>
 
    
