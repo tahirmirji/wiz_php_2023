@@ -1,39 +1,53 @@
 <!doctype html>
 <html lang="en">
+
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>Registration Form</title>
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  
   </head>
+
   <body>
+
   <div class="container">
   
   <div class="container text-center">
+
+<!-- ROW starts here -->
   <div class="row align-items-center">
 
+<!-- Columns with size 2 start here -->
   <div class="col-2 align-items-center">
     
-    </div>
+  </div>
 
+<!-- column with size 8 starts here -->
     <div class="col-8 align-items-center">
      
+<!-- Form starts here -->
     <form class="form">
 
-    <div class="row">
-        <div class="col-4">
-Name
-        </div>
-        <div class="col-8">
-Form elements
+      <div class="row">
+
+      <!-- Labels list goes here -->
+        <div class="col-2">
+          Name
         </div>
 
-    </div>
+        <!-- Input widgets will be added here -->
+        <div class="col-4">
+          <input type="text" name="username" value="" required>
+        </div>
+
+      </div>
 
     </form>
+    <!-- form ends here -->
 
     </div>
+    <!-- column with size 8 ends here -->
 
     <div class="col-2 align-items-center">
    
@@ -42,8 +56,16 @@ Form elements
    
 
   </div>
+
+
+
+
 </div>
+
+
 </div>
    
+
   </body>
+
 </html>
