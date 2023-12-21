@@ -16,40 +16,49 @@
                 
             </div>
 
-            <div class=" col-8  ">
+            <div class=" col-6  ">
 
             <form method='post' action="mailto:xyz@gmail.com">
+            <div class="row text-center p-3 bg-danger text-white">
+                
+                
+                    <h1>Registration Form</h1>
+              
+
+               
+
+            </div>
             <!-- Name row -->
-                <div class="row  ">
+                <div class="row  bg-danger text-white">
                 
                     <div class="col-6 ">
-                        <h1>Name</h1>
+                        <h4>Name</h4>
                     </div>
 
                     <div class="col-6">
-                    <input type="text" name="username" placeholder="Full name">
+                    <input type="text" maxlength="30"  name="username" placeholder="Full name" required>
                 </div>
 
                 </div>
 
                 <!-- Email row -->
-                <div class="row  ">
+                <div class="row  bg-danger text-white">
                 
                     <div class="col-6 ">
-                        <h1>Email</h1>
+                        <h4>Email</h4>
                     </div>
 
                     <div class="col-6">
-                    <input type="email" name="emailid" placeholder='Email'>
+                    <input type="email" name="emailid" placeholder='Email' required>
                 </div>
 
                 </div>
 
                 <!-- Skills -->
-                <div class="row  ">
+                <div class="row  bg-danger text-white">
                 
                     <div class="col-6 ">
-                        <h1>Skills</h1>
+                        <h4>Skills</h4>
                     </div>
 
                     <div class="col-6" role="group">
@@ -61,31 +70,66 @@
                 </div>
 
                 <!-- Gender -->
-                <div class="row  ">
+                <div class="row  bg-danger text-white">
                 
                     <div class="col-6 ">
-                        <h1>Gender</h1>
+                        <h4>Gender</h4>
                     </div>
 
                     <div class="col-6" role="group">
-                    Male<input type="radio" name="gender" value="Male" >
-                    Female<input type="radio" name="gender" value="Female">
+                    Male<input type="radio" name="gender" value="Male" required>
+                    Female<input type="radio" name="gender" value="Female" required>
                     
                 </div>
 
                 </div>
+
+                <!-- Select dowpdown list -->
+                <div class="row  bg-danger text-white">
+                
+                    <div class="col-6 ">
+                        <h4>City</h4>
+                    </div>
+
+                    <div class="col-6" >
+                    
+                    <select name='city' required>
+                        <option value='' selected>Select City</option>
+                        <option value='Bengaluru' >Bengaluru</option>
+                        <option value='Hubli'>Hubli</option>
+                        <option value='Chennai'>Chennai</option>
+                    </select>
+                    
+                </div>
+
+                </div>
+
+
+                <div class="row  bg-danger text-white">
+                
+                <div class="col-6 ">
+                    <h4>Describe Yourself</h4>
+                </div>
+
+                <div class="col-6" role="group">
+               
+                <textarea required placeholder="Describe about yourself" name="description" row="3" cols="20" ></textarea>
+                
+            </div>
+
+            </div>
 
                 <!-- Buttons -->
-                <div class="row  ">
+                <div class="row  bg-danger text-white p-3">
                 
                     <div class="col-6 ">
-                        <h1></h1>
+                      
                     </div>
 
                     <div class="col-6" role="group">
                     
-                    <input type="submit" name="submit" value="Register">
-                    <input type="reset" name="rest_button" value="Clear Form">
+                    <input type="submit" class="btn btn-success" name="submit" value="Register">
+                    <input type="reset" class="btn btn-danger" name="rest_button" value="Clear Form">
                     
                 </div>
 
