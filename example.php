@@ -18,6 +18,7 @@
 
             <div class=" col-8  ">
 
+            <form method='post' action="mailto:xyz@gmail.com">
             <!-- Name row -->
                 <div class="row  ">
                 
@@ -26,7 +27,7 @@
                     </div>
 
                     <div class="col-6">
-                    <h1><input type="text" name="username" placeholder="Full name"></h1>
+                    <input type="text" name="username" placeholder="Full name">
                 </div>
 
                 </div>
@@ -39,12 +40,62 @@
                     </div>
 
                     <div class="col-6">
-                    <h1><input type="email" name="emailid" placeholder='Email'></h1>
+                    <input type="email" name="emailid" placeholder='Email'>
                 </div>
 
                 </div>
 
+                <!-- Skills -->
+                <div class="row  ">
                 
+                    <div class="col-6 ">
+                        <h1>Skills</h1>
+                    </div>
+
+                    <div class="col-6" role="group">
+                    PS<input type="checkbox" name="PS" >
+                    AI<input type="checkbox" name="AI" >
+                    
+                </div>
+
+                </div>
+
+                <!-- Gender -->
+                <div class="row  ">
+                
+                    <div class="col-6 ">
+                        <h1>Gender</h1>
+                    </div>
+
+                    <div class="col-6" role="group">
+                    Male<input type="radio" name="gender" value="Male" >
+                    Female<input type="radio" name="gender" value="Female">
+                    
+                </div>
+
+                </div>
+
+                <!-- Buttons -->
+                <div class="row  ">
+                
+                    <div class="col-6 ">
+                        <h1></h1>
+                    </div>
+
+                    <div class="col-6" role="group">
+                    
+                    <input type="submit" name="submit" value="Register">
+                    <input type="reset" name="rest_button" value="Clear Form">
+                    
+                </div>
+
+                </div>
+
+
+
+
+
+            </form>
             </div>
 
             <div class=" col-2 ">
